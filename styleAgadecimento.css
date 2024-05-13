@@ -1,0 +1,57 @@
+@font-face{
+    font-family:bebas-neue-cyrillic-regular;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("Bebas Neue Cyrillic Regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'bebas-neue-cyrillic-regular';
+    background-color: #231F20;
+}
+
+
+.box{
+    height: 38vh;
+    width: 49vw;
+    background-color: #ECECEC;
+    display: flex;
+    margin: auto;
+    margin-top: 16%;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.logo{
+    height: 83px;
+    width: 238px;
+    padding: 20px;
+}
+
+.container{
+    color: #231F20;
+    font-size: 29px;
+    margin-left: 3vw;
+    margin-top: 7vh;
+}
+
+.button-back{
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #231F20;
+    border-radius: 10px;
+    margin-left: 21vw;
+    margin-top: 2vh;
+    color: #ECECEC;
+}
+
+.button-back:hover{
+    cursor: pointer;
+    background-color: #A7A9A7;
+}
